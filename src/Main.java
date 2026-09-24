@@ -4,7 +4,7 @@ public class Main {
         RefrigeratorAdapter refAdapt = new RefrigeratorAdapter();
         SmartphoneAdapter spAdapt = new SmartphoneAdapter();
 
-        System.out.println("Power Outlet");
+        System.out.println("---Power Outlet---");
         lptAdapt.plugIn();
         refAdapt.plugIn();
         spAdapt.plugIn();
